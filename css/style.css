@@ -61,7 +61,7 @@ a {
     position: absolute;
     width: 245px;
     height: 190px;
-    top: 13%;
+    top: 8%;
     left: 3%;
 }
 
@@ -89,35 +89,35 @@ a {
 .card-2 img {
     width: 220px;
     height: 182px;
-    top: 82%;
+    top: 48%;
     left: -5%;
 }
 
 .card-3 img {
     width: 176px;
     height: 176px;
-    top: 156%;
+    top: 90%;
     left: 1%;
 }
 
 .card-4 img {
     width: 157px;
     height: 157px;
-    top: 223%;
+    top: 132%;
     left: 1%;
 }
 
 .card-5 img {
     width: 108px;
     height: 157px;
-    top: 290%;
+    top: 170%;
     left: 5%;
 }
 
 .card-6 img {
     width: 108px;
     height: 157px;
-    top: 357%;
+    top: 210%;
     left: 5%;
 }
 
