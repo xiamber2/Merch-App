@@ -1,0 +1,460 @@
+@import url("https://use.typekit.net/jjt8tot.css");
+
+:root {
+    --white: #FAF3DD;
+    --orange: #F3722C;
+    --brown: #351303;
+    --blue: #577590;
+    --light-blue: #43AA8B;
+    --yellow: #F9C74F;
+    --red: #F94144;
+
+    --body-txt: 1.25em;
+    --card-title: 2em;
+    --nav-txt: 1.5em;
+    --button-txt: 1.5em;
+    --product-title: 2.25em;
+    --product-pricing: 1.5em;
+}
+
+body {
+    font-family: "omnes-semicond", sans-serif;
+    background-color: var(--white);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--nav-txt);
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 700;
+    margin: 2%;
+    align-items: center;
+}
+
+.home-nav a {
+    color: var(--brown);
+}
+
+.home-nav span a {
+    color: var(--orange);
+}
+
+.card {
+    background-color: var(--yellow);
+    padding: 21px;
+    padding-top: 100px;
+    border-radius: 30px;
+    max-width: 255px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 72px;
+}
+
+.card img {
+    position: absolute;
+    width: 245px;
+    height: 190px;
+    top: 13%;
+    left: 3%;
+}
+
+.card h3 {
+    color: var(--orange);
+    font-size: var(--card-title);
+
+    margin: 0;
+    padding-top: 25%;
+}
+
+.card p {
+    color: var(--brown);
+    font-size: 1em;
+
+    margin: 0;
+    padding-top: 10%;
+}
+
+.title-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-2 img {
+    width: 220px;
+    height: 182px;
+    top: 82%;
+    left: -5%;
+}
+
+.card-3 img {
+    width: 176px;
+    height: 176px;
+    top: 156%;
+    left: 1%;
+}
+
+.card-4 img {
+    width: 157px;
+    height: 157px;
+    top: 223%;
+    left: 1%;
+}
+
+.card-5 img {
+    width: 108px;
+    height: 157px;
+    top: 290%;
+    left: 5%;
+}
+
+.card-6 img {
+    width: 108px;
+    height: 157px;
+    top: 357%;
+    left: 5%;
+}
+
+/*Product pages*/
+.back-btn img {
+    margin-left: 0%;
+}
+
+.nav-products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EBE1C0;
+    padding-right: 2%;
+}
+
+.header-products {
+    background-color: #EBE1C0;
+    padding-bottom: 87px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-products img {
+    margin-top: 10%;
+    width: auto;
+}
+
+.product-script {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.product-script h1 {
+    font-size: var(--product-title);
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 700;
+    color: var(--brown);
+}
+
+.product-script h2 {
+    font-size: var(--product-pricing);
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 700;
+    color: var(--brown);
+}
+
+.product-script p {
+    font-size: var(--body-txt);
+    color: var(--brown);
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 400;
+
+    margin-bottom: 20%;
+}
+
+.product-script span p {
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 700;
+}
+
+/*winkelwagen*/
+.header-cart {
+    display: flex;
+    align-items: center;
+}
+
+.header-cart h1 {
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 700;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shopping-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.item-amount {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.item-amount p {
+    margin: 0;
+}
+
+.item-amount p:not(span > p) {
+    border: solid 2px var(--light-blue);
+    padding: 4.5px 16.15px;
+    margin: 0;
+}
+
+.item-amount span {
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 700;
+
+    height: 41px;
+
+    color: var(--white);
+
+    background-color: var(--light-blue);
+    padding: 0px 17px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.item-amount span:last-of-type {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.shopping-item img {
+    width: 113px;
+    height: 100%;
+
+    background-color: var(--brown);
+    padding: 38px 31.8px;
+    border-radius: 20px;
+}
+
+.item-info h2 {
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 700;
+}
+
+.item-info p {
+    margin-bottom: 5%;
+    margin-top: 30%;
+}
+
+.line {
+  border: none;
+  height: 2px;
+  background: black;
+  width: 90%;
+
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #F9F7F1;
+    padding: 10px;
+    border-radius: 10px;
+
+    margin: 75% 5% 5% 5%;
+}
+
+.pricing p {
+    margin: 0;
+    margin-bottom: 15%;
+}
+
+.pricing span p {
+    font-size: var(--product-pricing);
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 700;
+}
+
+.pricing .txt {
+    font-size: var(--body-txt);
+}
+
+.pricing .nmbrs {
+    text-align: right;
+}
+
+.btn-cart {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.btn-cart a {
+    padding: 10px 35%;
+    border-radius: 10px;
+}
+
+/*Join page*/
+.header-join {
+    margin-left: 5%;
+}
+
+.header-join h3 {
+    margin-top: 0;
+    margin-bottom: 1%;
+
+    color: var(--orange);
+    font-size: 2.25em;
+
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 700;
+}
+
+.header-join p {
+    font-size: var(--body-txt);
+}
+
+.line-join {
+    background-color: var(--blue);
+    height: 5px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+#join-form {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.txt-fields form {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    gap: 20px;
+}
+
+.name > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.name input {
+    width: 170px;
+}
+
+.txt-fields input {
+    background-color: var(--blue);
+    opacity: 70%;
+    border: none;
+    border-radius: 10px;
+    height: 38px;
+}
+
+.txt-fields label {
+    font-weight: 700;
+
+    font-size: 1.25em;
+    margin-top: 10%;
+}
+
+.txt-fields .submit-btn {
+    margin-top: 5%;
+
+    opacity: 100%;
+
+    color: var(--white);
+    font-size: 2.25em;
+    font-weight: 700;
+
+    background-color: var(--orange);
+    height: 68px;
+    border-radius: 25px;
+}
+
+.txt-fields .submit-btn:hover {
+    cursor: pointer;
+}
+
+/*Confirmed page*/
+.confirmed-main {
+    background-image: url("/assets/Circles.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmed-main img {
+    width: 210px;
+    position: absolute;
+    top: 0%;
+}
+
+.confirmed-main h1 {
+    text-align: center;
+    width: 70%;
+}
+
+/* Buttons */
+.blue-btns a {
+    font-size: var(--button-txt);
+    background-color: var(--light-blue);
+    color: var(--white);
+
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 700;
+}
+
+.product-btns {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+
+    margin-bottom: 2%;
+}
+
+.product-btns span a {
+    font-size: var(--button-txt);
+    background-color: #1A5543;
+    color: var(--white);
+
+    padding: 4.165px 35.15px;
+}
+
+.product-btns a {
+    color: var(--brown);
+
+    padding: 5.75px 19.5px;
+    border-radius: 10px;
+}
+
+.product-btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    text-align: center
+}
