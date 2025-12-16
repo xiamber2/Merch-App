@@ -377,7 +377,7 @@ a {
 
 .txt-fields .submit-btn {
     margin-top: 5%;
-
+    width: 100%;
     opacity: 100%;
 
     color: var(--white);
@@ -416,6 +416,89 @@ a {
     text-align: center;
     width: 70%;
 }
+
+/*Browse on join page*/
+.header-browse-join .join {
+    background-color: var(--brown);
+    border-radius: 35px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 5%;
+}
+
+.header-browse-join .join h1 {
+    text-align: center;
+    font-size: 4em;
+    color: var(--orange);
+
+    margin-top: 5%;
+}
+
+.header-browse-join .join p {
+    font-size: var(--body-txt);
+    color: var(--white);
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-browse-join .red-btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.header-browse-join .red-btn a {
+    background-color: var(--red);
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.horizontal-flow {
+    display: flex;
+    margin-left: 15%;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 20px 40px 20px;
+    scroll-snap-type: x mandatory;
+}
+
+.horizontal-flow::-webkit-scrollbar {
+    display: none;
+}
+
+.horizontal-flow {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.horizontal-flow .card {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+
+    padding: 0 21px;
+
+    width: 300px;
+}
+
+.horizontal-flow .card-2 p {
+    padding: 0 0 20px 0;
+}
+
+.horizontal-flow .card h3 {
+    padding-top: 0;
+}
+
+.horizontal-flow .card img {
+    position: unset;
+}
+
 
 /* Buttons */
 .blue-btns a {
