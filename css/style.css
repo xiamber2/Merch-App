@@ -395,7 +395,7 @@ a {
 
 /*Confirmed page*/
 .confirmed-main {
-    background-image: url("assets/Circles.webp");
+    background-image: url("/assets/Circles.webp");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
