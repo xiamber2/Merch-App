@@ -408,7 +408,8 @@ a {
 .confirmed-main img {
     width: 210px;
     position: absolute;
-    top: 0%;
+    top: 10%;
+    right: 0%;
 }
 
 .confirmed-main h1 {
